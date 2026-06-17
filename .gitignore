@@ -158,6 +158,7 @@ tmp*
 *.pdf
 *.png
 *.wav
+*.pkl
 bin/
 
 watermark/
