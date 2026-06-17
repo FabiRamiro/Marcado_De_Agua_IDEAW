@@ -1,0 +1,11 @@
+python3 train.py \
+--train_config /path/to/config/yaml \
+--model_config /path/to/config/yaml \
+--data_config /path/to/config/yaml \
+--device cuda \
+--pickle_path /path/to/audio/pkl \
+--store_model_path /path/to/save/ \
+--load_model_path /path/to/save/stage_I/ \
+--summary_steps 0 \
+--save_steps 0 \
+--iterations 0 \

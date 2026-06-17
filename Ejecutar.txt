@@ -1,0 +1,18 @@
+PROCESAR Y HACER EL ARCHIVO .pkl
+python -m data.process
+
+PARA ENTRENAR
+python train.py --train_config "./config.yaml" --model_config "./models/config.yaml" --data_config "./data/config.yaml" --pickle_path "./bin/audio.pkl" --iterations 5000 --store_model_path "./models/"
+
+PARA EJECUTAR Y MARCAR
+python embed_extract.py --input "./audios_clips" --output_dir "./watermark" --config "./models/config.yaml" --checkpoint "./models/stage_II_last.pth"
+
+¿Que hace el comando exactamente?
+   1. --input: Toma los audios originales
+   2. --output_dir: Crea copias de esos audios en la carpeta watermark
+   3. --checkpoint: Carga el cerebro que el modelo desarrollo durante el entrenamiento, ya que sin esto, el modelo usara valores aleatorios y la marca de agua no se
+      podria extraer despues
+   4. --config: Usa la arquitectura del modelo que definiste en la carpeta models
+
+PARA EJECUTAR Y USAR VALORES ALEATORIOS
+python embed_extract.py --input "./audios_clips" --output_dir "./watermark" --config "./models/config.yaml"

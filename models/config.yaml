@@ -1,0 +1,54 @@
+# IDEAW model configuration
+
+IDEAW:
+  num_inn_1: 16
+  num_inn_2: 8
+  ## for STFT and ISTFT
+  n_fft: 1000
+  hop_len: 250
+  win_len: 1000
+  ## for expanding watermark message
+  num_bit: 16
+  num_lc_bit: 10
+  num_point: 16000
+  chunk_ratio: 4
+  ## locating step size
+  extract_stripe: 5
+
+## for invertible block
+InnBlock:
+  channel: 2
+  clamp: 2
+
+LClassifier:
+  input_size: 500
+
+Discriminator:
+  input_size: 16000
+
+AttackLayer:
+  att_num: 8
+  GaussianNoise:
+    snr: 15
+  Bandpass:
+    sr: 16000
+    upper: 5000
+    lower: 1000
+  Erase:
+    p: 0.05
+  Dropout:
+    p: 0.10
+  Resample:
+    orig_sr: 16000
+    sr: 14400
+  AmplitudeModify:
+    f: 0.80
+  Mp3Compress:
+    sr: 16000
+    bitrate: "192k"
+  TimeStretch:
+    rate: 0.98
+
+BalanceBlock:
+  channel: 2
+  

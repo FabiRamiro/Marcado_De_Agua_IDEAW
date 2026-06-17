@@ -1,0 +1,21 @@
+# for training (optimizer configuration)
+train:
+  batch_size: 16
+  num_workers: 0
+  lambda_integ: 1
+  lambda_percept: 1
+  lambda_ident: 1
+  lr1: 1e-5
+  lr2: 1e-5
+  lr3: 1e-5
+  beta1: 0.9
+  beta2: 0.999
+  eps: 1e-6
+  weight_decay: 1e-5
+  weight_step: 5000
+  gamma: 0.95
+  optim1_step: "True"
+  optim2_step: "True"
+  stage_I_ratio: 0.5
+  shift_ratio: 0.2
+  
