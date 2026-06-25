@@ -16,3 +16,7 @@ python embed_extract.py --input "./audios_clips" --output_dir "./watermark" --co
 
 PARA EJECUTAR Y USAR VALORES ALEATORIOS
 python embed_extract.py --input "./audios_clips" --output_dir "./watermark" --config "./models/config.yaml"
+
+PARA EXTRAER EL MENSAJE
+python extract.py --input watermark/audio001_wmd.wav --output_txt resultado_mensaje.txt
+python extract.py --input watermark/audio001_wmd.wav --output_txt resultado_mensaje.txt --checkpoint ruta/a/tu/modelo/checkpoint.pt

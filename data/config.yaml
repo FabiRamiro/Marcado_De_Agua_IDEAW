@@ -1,6 +1,6 @@
 # Data process configuration
-data_path: "C:/Users/fabi7/OneDrive/Documentos/_Estadias/IDEAW/audios_clips" # Modify it!
-out_path: "C:/Users/fabi7/OneDrive/Documentos/_Estadias/IDEAW/bin" # Modify it!
+data_path: "./audios_clips" # Modify it!
+out_path: "./bin" # Modify it!
 sample_rate: 16000
 audio_limit_len: 10 # unit: second
 audio_segment_len: 1 # unit: second

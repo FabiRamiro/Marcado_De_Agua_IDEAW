@@ -137,9 +137,9 @@ def process_file(ideaw, audio_path, output_path, msg_bit, lcode_bit, device):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="IDEAW Embedding and Extraction")
-    parser.add_argument("--input", default="C:/Users/fabi7/OneDrive/Documentos/_Estadias/IDEAW/audios_clips/audio001.wav", help="Path to a single wav file or a directory of wav files")
-    parser.add_argument("--output_dir", default="C:/Users/fabi7/OneDrive/Documentos/_Estadias/IDEAW/watermark", help="Directory to save watermarked files")
-    parser.add_argument("--config", default="C:/Users/fabi7/OneDrive/Documentos/_Estadias/IDEAW/models/config.yaml", help="Path to model config")
+    parser.add_argument("--input", default="./audios_clips/audio001.wav", help="Path to a single wav file or a directory of wav files")
+    parser.add_argument("--output_dir", default="./watermark", help="Directory to save watermarked files")
+    parser.add_argument("--config", default="./models/config.yaml", help="Path to model config")
     parser.add_argument("--checkpoint", default=None, help="Path to model checkpoint (optional)")
     parser.add_argument("--msg_bit", type=int, default=16)
     parser.add_argument("--lcode_bit", type=int, default=10)

@@ -105,6 +105,7 @@ class IDEAW(nn.Module):
         )
         return ret
 
+    #========= EN LO QUE TRABAJE YO (FABIAN RAMIRO) =========
     # INN#1 Embedding & Extracting watermark message
     def embed_msg(self, audio, msg):
         audio_stft = self.stft(audio) #Devuelve: Lote, Frec, Tiempo y real e imaginario
@@ -158,8 +159,10 @@ class IDEAW(nn.Module):
         wm_audio = self.istft(wm_audio_stft)
 
         return wm_audio, wm_audio_stft
+    #========================================================
 
 
+    #========= EN LO QUE TRABAJE YO (FABIAN RAMIRO) =========
     def extract_msg(self, wm_mid_stft):
         LIMITE_BAJOS = 100
 
@@ -202,6 +205,8 @@ class IDEAW(nn.Module):
         extr_msg = self.msg_fc_back(extr_msg_expand).clamp(-1, 1)
 
         return extr_msg
+    #========================================================
+
 
     def enc_dec_1(self, audio_stft, msg_stft, rev):
         audio_stft = audio_stft.permute(0, 3, 2, 1)  # [B, C, T, F]
@@ -275,6 +280,7 @@ class IDEAW(nn.Module):
         mid_bajos_mag = mid_bajos_mag_out.squeeze(-1)
         extr_lcode_bajos_mag = extr_lcode_bajos_mag_out.squeeze(-1)
 
+    #========= EN LO QUE TRABAJE YO (FABIAN RAMIRO) =========
         # Reconstrucción de mid
         audio_1_altos_mag = wm_audio_1_mag[:, LIMITE_BAJOS:, :]
         mid_mag_completa = torch.cat([mid_bajos_mag, audio_1_altos_mag], dim=1)
@@ -299,6 +305,7 @@ class IDEAW(nn.Module):
         extr_lcode = self.lcode_fc_back(extr_lcode_expand).clamp(-1, 1)
 
         return mid_stft, extr_lcode
+    #========================================================
 
     def enc_dec_2(self, audio_stft, lcode_stft, rev):
         audio_stft = audio_stft.permute(0, 3, 2, 1)  # [B, C, T, F]

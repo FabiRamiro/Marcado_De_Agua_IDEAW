@@ -1,0 +1,83 @@
+Archivo: C:\Users\fabi7\OneDrive\Documentos\_Estadias\IDEAW\watermark\audio001_wmd.wav
+Total de fragmentos (chunks) procesados: 20
+
+--- Fragmento 1 ---
+  Codigo de Localizacion (Locate Code) : 0000000000
+  Mensaje Extraido (Message)           : 0000000000000000
+
+--- Fragmento 2 ---
+  Codigo de Localizacion (Locate Code) : 0000000000
+  Mensaje Extraido (Message)           : 0000000000000000
+
+--- Fragmento 3 ---
+  Codigo de Localizacion (Locate Code) : 0000000000
+  Mensaje Extraido (Message)           : 0000000000000000
+
+--- Fragmento 4 ---
+  Codigo de Localizacion (Locate Code) : 0000000000
+  Mensaje Extraido (Message)           : 0000000000000000
+
+--- Fragmento 5 ---
+  Codigo de Localizacion (Locate Code) : 0000000000
+  Mensaje Extraido (Message)           : 0000000000000000
+
+--- Fragmento 6 ---
+  Codigo de Localizacion (Locate Code) : 0000000000
+  Mensaje Extraido (Message)           : 0000000000000000
+
+--- Fragmento 7 ---
+  Codigo de Localizacion (Locate Code) : 0000000000
+  Mensaje Extraido (Message)           : 0000000000000000
+
+--- Fragmento 8 ---
+  Codigo de Localizacion (Locate Code) : 0000000000
+  Mensaje Extraido (Message)           : 0000000000000000
+
+--- Fragmento 9 ---
+  Codigo de Localizacion (Locate Code) : 0000000000
+  Mensaje Extraido (Message)           : 0000000000000000
+
+--- Fragmento 10 ---
+  Codigo de Localizacion (Locate Code) : 0000000000
+  Mensaje Extraido (Message)           : 0000000000000000
+
+--- Fragmento 11 ---
+  Codigo de Localizacion (Locate Code) : 0000000000
+  Mensaje Extraido (Message)           : 0000000000000000
+
+--- Fragmento 12 ---
+  Codigo de Localizacion (Locate Code) : 0000000000
+  Mensaje Extraido (Message)           : 0000000000000000
+
+--- Fragmento 13 ---
+  Codigo de Localizacion (Locate Code) : 0000000000
+  Mensaje Extraido (Message)           : 0000000000000000
+
+--- Fragmento 14 ---
+  Codigo de Localizacion (Locate Code) : 0000000000
+  Mensaje Extraido (Message)           : 0000000000000000
+
+--- Fragmento 15 ---
+  Codigo de Localizacion (Locate Code) : 0000000000
+  Mensaje Extraido (Message)           : 0000000000000000
+
+--- Fragmento 16 ---
+  Codigo de Localizacion (Locate Code) : 0000000000
+  Mensaje Extraido (Message)           : 0000000000000000
+
+--- Fragmento 17 ---
+  Codigo de Localizacion (Locate Code) : 0000000000
+  Mensaje Extraido (Message)           : 0000000000000000
+
+--- Fragmento 18 ---
+  Codigo de Localizacion (Locate Code) : 0000000000
+  Mensaje Extraido (Message)           : 0000000000000000
+
+--- Fragmento 19 ---
+  Codigo de Localizacion (Locate Code) : 0000000000
+  Mensaje Extraido (Message)           : 0000000000000000
+
+--- Fragmento 20 ---
+  Codigo de Localizacion (Locate Code) : 0000000000
+  Mensaje Extraido (Message)           : 0000000000000000
+
